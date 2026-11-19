@@ -5,20 +5,42 @@ ANNUNCIO DA CONSERVARE
 Titolo: GIGABYTE RTX 5060 Ti 16GB GDDR7
 Scheda: Gigabyte GeForce RTX 5060 Ti, 16 GB GDDR7.
 Prezzo richiesto rilevato: 310 €.
-Località: Perugia (PG).
+Località: Vallo di Nera, provincia di Perugia (PG).
 Piattaforma: Subito.
 Link diretto:
 https://www.subito.it/informatica/gigabyte-rtx-5060-ti-16gb-gddr7-perugia-664074955.htm
 
-Condizione dichiarata nell'annuncio: come nuovo / perfetto o ricondizionato.
+Stato: USATO — annuncio classificato “come nuovo / perfetto o ricondizionato”; eventuale ricondizionamento da chiarire con il venditore.
 Venditore: Vlad, senza recensioni al momento della rilevazione.
 Spedizione disponibile, costo non indicato.
 Il venditore indica alimentazione con connettore standard a 8 pin.
 Disponibilità, funzionamento e costo totale con spedizione restano da confermare.
 
+ALTERNATIVA DA VALUTARE — RTX 4060 Ti 16 GB
+Titolo: ASUS DUAL RTX 4060 Ti Advanced 16 GB VRAM
+Stato: USATO — dichiarata come nuova, attualmente montata nel PC.
+Prezzo richiesto rilevato: 370 €.
+Memoria: 16 GB GDDR6.
+Località: Roma.
+Piattaforma: Subito.
+Link diretto:
+https://www.subito.it/informatica/asus-dual-rtx-4060-ti-advanced-16-gb-vram-roma-628118652.htm
+Il venditore dichiara funzionamento regolare e possibilità di prova dal vivo.
+Spedizione, costo di consegna ed eventuali commissioni non indicati: da verificare.
+Disponibilità e funzionamento da confermare. Prezzo della sola scheda.
+Offerta individuata il 19 novembre 2026: è un'alternativa da valutare, non una scelta già fatta.
+
+NUOVO / USATO NEL CONFIGURATORE
+Ogni prodotto mostra la condizione: Nuovo, Usato, Ricondizionato oppure
+“Nuovo/usato: da verificare” se la condizione non è documentata.
+La condizione è modificabile e compare anche nel preventivo esportato.
+Le due GPU di Subito sono indicate come usate.
+I vecchi prezzi e le scelte iniziali del configuratore sono conservati.
+Per gli annunci con costi di consegna ignoti il totale resta parziale.
+
 NOTE PER IL SEGUITO
 - Conservare questo annuncio come candidato già individuato.
 - Valutare eventualmente anche una RTX 4060. Nel confronto verificare la variante esatta e la memoria video: il requisito di partenza è 16 GB di VRAM; cercare anche una RTX 4060 Ti 16 GB.
 - Nessuna alternativa 4060 è già stata scelta: è una possibilità da valutare.
-- Il configuratore Configuratore_PC_Conegliano.html è conservato nella versione attuale, senza modifiche. L'annuncio usato è annotato qui e non sostituisce automaticamente una scheda nel configuratore.
+- Il configuratore Configuratore_PC_Conegliano.html include ora le due GPU usate come alternative selezionabili, con prezzo, link e condizione. Nessuna alternativa sostituisce automaticamente la scelta iniziale.
 - Riprendere da questo configuratore e da queste note nella prossima sessione.
