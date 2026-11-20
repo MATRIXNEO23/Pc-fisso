@@ -5,6 +5,55 @@
 main{max-width:1440px}button,.button{min-height:42px}input,select{font-size:16px}.name{overflow-wrap:anywhere}.meta{font-size:13px}.quote-panel{padding:16px;background:white;border:1px solid #d8e2eb;border-radius:10px;margin:18px 0}.quote-tabs{display:flex;gap:8px;overflow-x:auto;padding:3px 0 10px}.quote-tabs button{flex-shrink:0;max-width:240px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.quote-tabs [aria-current=true]{background:#173b4f;color:white;border-color:#173b4f}.quote-tools{display:flex;gap:8px;flex-wrap:wrap}.quote-heading{margin:0 0 12px;font-size:19px}.photo-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0}.product-photo{width:88px;height:88px;object-fit:contain;display:block;background:white;border-radius:7px}.photo-button{padding:4px;border:1px solid #d8e2eb;border-radius:8px;max-width:160px}.photo-placeholder{min-height:78px;min-width:106px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-size:13px;text-align:center;padding:8px}.photo-caption{display:block;font-size:12px;color:#657788;padding:4px}.photo-error{display:block;max-width:150px;font-size:13px;color:#9a5b06;padding:5px}#image-viewer{max-width:900px}#image-large{display:block;width:100%;max-height:72vh;object-fit:contain}#image-editor label,#online-dialog label{display:flex;flex-direction:column;gap:7px;margin:14px 0}#image-edit-preview{display:block;max-height:180px;max-width:100%;margin:12px auto;object-fit:contain}.dialog-note{font-size:14px}.actions{flex-wrap:wrap}dialog{max-height:90dvh;overflow-y:auto}.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.sync-note{font-size:13px;margin:8px 0 0}.bar{padding-bottom:max(12px,env(safe-area-inset-bottom))}#toast{max-width:calc(100% - 24px);width:max-content;text-align:center}button.small{min-height:40px}a:focus-visible,select:focus-visible{outline:3px solid #00a998;outline-offset:3px}
 @media(max-width:800px){main{padding:18px 12px 150px}.top{display:block}.top .totalbox{display:none}.tablewrap{overflow:visible;border:0;background:transparent}.tablewrap table,.tablewrap tbody{display:block;width:100%;min-width:0}.tablewrap thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}#catalog>tr:not(.category):not(.add-alternative){display:grid;grid-template-columns:1fr 1fr;border:1px solid #cddde4;background:white;border-radius:10px;margin:12px 0;padding:12px;gap:8px}#catalog>tr.chosen{background:#edf8f5;border:2px solid #007e72}#catalog td{border:0;display:block;padding:6px;min-width:0;overflow-wrap:anywhere}#catalog td:nth-child(1),#catalog td:nth-child(2),#catalog td:nth-child(7){grid-column:1/-1}#catalog td:nth-child(1){display:flex;gap:8px;align-items:center}#catalog td:nth-child(1):before{content:'Scegli questo prodotto';font-size:14px;font-weight:650}#catalog td:nth-child(1) input{margin:0;width:24px;height:24px}#catalog td:nth-child(3):before,#catalog td:nth-child(4):before,#catalog td:nth-child(5):before,#catalog td:nth-child(6):before{display:block;color:#526a7c;font-weight:500;font-size:13px;margin-bottom:5px}#catalog td:nth-child(3):before{content:'Prezzo'}#catalog td:nth-child(4):before{content:'Spedizione'}#catalog td:nth-child(5):before{content:'Coupon'}#catalog td:nth-child(6):before{content:'Acquista'}#catalog .category{display:block;margin-top:18px}#catalog .category th{display:block;border-top:0;border-radius:7px;font-size:20px;padding:13px}#catalog .category span{margin-left:0;font-size:12px}#catalog .add-alternative{display:block}#catalog .add-alternative td:first-child{display:none}#catalog .add-alternative td{display:block;background:transparent}.photo-tools{float:left;margin:4px 12px 10px 0;max-width:115px}.photo-tools .small{font-size:12px;padding:5px}.product-actions{clear:both}.offer-select{width:100%;max-width:100%;font-size:14px}.money{white-space:normal}.favorite-button{margin-left:0}.rank{margin-right:6px}.formgrid{grid-template-columns:1fr}.wide{grid-column:auto}.export-buttons{flex-wrap:wrap}.toolbar .status{flex-basis:100%;margin-left:0}.quote-tools button{flex:1 1 auto}.bar small{font-size:11px}.budget{font-size:12px;max-width:45%}.summary{gap:10px}.summary label{margin-left:0}.shipping{grid-template-columns:minmax(0,1fr) 90px}.shipping input{width:90px}dialog{padding:18px}.product-actions button{flex:1 1 auto}#catalog td:nth-child(6) a{display:inline-block;padding:7px 0}.photo-tools:after{content:'';clear:both}.name{font-size:16px}}
 @media(min-width:801px) and (max-width:1100px){td,th{padding:10px 8px}.tablewrap table{font-size:13px}.offer-select{width:160px}.product-actions{min-width:105px}}
+
+/* DARK_THEME */
+:root{color-scheme:dark;color:#e6edf5;background:#0b111b}
+body{background:#0b111b;color:#e6edf5}
+p,.help,.meta,.status,.foot,.shipping small,.photo-caption,.sync-note{color:#abbacd}
+.eyebrow,a{color:#66dfcf}
+button,.button{background:#1b293b;color:#e6edf5;border-color:#3d5067}
+button:hover,.button:hover{background:#263a50}
+button.primary{background:#147d70;color:#fff;border-color:#249d8e}
+button.primary:hover{background:#188c7e}
+.summary,.details,.quote-panel,.tablewrap{background:#121d2c;border-color:#304258}
+.totalbox,.bar{background:#101e30;color:#edf5ff}
+.totalbox small,.bar small{color:#b0c5d9}
+thead{background:#1c2c40;color:#b8cbe0}
+td{border-color:#2b3c51}
+tr.chosen{background:#153338}
+.category th{background:#18384a;border-top-color:#0b111b;border-left-color:#39c2ac;color:#f1f8ff}
+.category span{background:#ffffff12;color:#d1e6f2;border-color:#ffffff30}
+.add-alternative td{background:#111e2e}
+input,select{background:#0e1827;color:#edf4fd;border-color:#496078}
+input::placeholder{color:#92a5bc;opacity:1}
+input[type=radio]{background:#0e1827;border-color:#7992aa}
+input[type=radio]:checked{background:#168677;border-color:#57dbc7}
+.rank{color:#89eadb;background:#183c3d}
+.favorite-button{background:#1b293b;color:#dce8f7}
+.favorite-button[aria-pressed=true]{background:#49391d;border-color:#ac8741;color:#ffe199}
+.delete-product{color:#ffb7ad}
+.delete-product:hover{background:#46262c;border-color:#9f5c60}
+.coupon{color:#a6f3d7;background:#184338}
+.muted{color:#9caec2}
+.warn{color:#f6ce87}
+.notice{background:#3a301e;color:#f5d6a0;border-color:#78613a}
+.offer-note{background:#163234}
+dialog{background:#142032;color:#e6edf5;box-shadow:0 20px 80px #0009}
+dialog::backdrop{background:#000a}
+.error,.photo-error{color:#ffb4a8}
+.quote-tabs [aria-current=true]{background:#155951;color:#edfffa;border-color:#389d8e}
+.photo-button{background:#19283c;border-color:#3d5067}
+.photo-button:hover{background:#263a50}
+.photo-caption{color:#bed0e4}
+.photo-placeholder{color:#85e3d4}
+#toast{background:#176e61;color:#f2fffb;box-shadow:0 6px 30px #0007}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline-color:#65e4d1}
+@media(max-width:800px){
+#catalog>tr:not(.category):not(.add-alternative){background:#121d2c;border-color:#354a62}
+#catalog>tr.chosen{background:#153338;border-color:#46c8b3}
+#catalog td:nth-child(3):before,#catalog td:nth-child(4):before,#catalog td:nth-child(5):before,#catalog td:nth-child(6):before{color:#b1c3d8}
+#catalog .add-alternative td{background:transparent}
+}
 </style></head><body><main>
 <div class="top"><div><span class="eyebrow">COMPONENTI · CONEGLIANO</span><h1>Il tuo PC, pezzo per pezzo.</h1></div><div class="totalbox"><small id="total-label">TOTALE PARZIALE · SPEDIZIONI MANCANTI</small><strong id="top-total">1.381,32&nbsp;€ + ?</strong></div></div>
 <section class="quote-panel" aria-label="I tuoi preventivi"><h2 class="quote-heading" id="active-quote-name">Preventivo 1</h2><nav id="quote-tabs" class="quote-tabs" aria-label="Scegli preventivo"></nav><div class="quote-tools"><button id="new-quote">+ Nuovo preventivo</button><button id="duplicate-quote">Duplica</button><button id="rename-quote">Rinomina</button><button id="delete-quote" class="delete-product">Elimina preventivo</button><button id="save-online" class="primary">Salva online</button><button id="load-online">Carica online</button></div><p class="sync-note" id="sync-status">Ogni preventivo mantiene prodotti, prezzi, immagini e scelte separati. Usa Salva online per condividerli.</p></section>
