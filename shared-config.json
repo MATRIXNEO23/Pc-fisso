@@ -492,6 +492,12 @@
             "label": "gtofficinedelcomputer.it",
             "fee": 0,
             "rule": "Tariffa inserita manualmente."
+          },
+          "custom-shop-mwomldgs-ojy6c": {
+            "name": "aliexpress",
+            "label": "aliexpress",
+            "fee": null,
+            "rule": "Spedizione specificata nella singola offerta."
           }
         },
         "extraCategories": [],
@@ -538,7 +544,19 @@
               "shippingFee": 790
             }
           ],
-          "cpu-7600": [],
+          "cpu-7600": [
+            {
+              "id": "offer-mwomldgs-ojy6c",
+              "shippingFee": 0,
+              "price": 12238,
+              "shop": "custom-shop-mwomldgs-ojy6c",
+              "url": "https://it.aliexpress.com/item/1005012028251728.html?aff_fsk=_oEaw5ME&src=AwinIT4&pdp_npi=4%40dis%21EUR%21291.38%21137.97%21%21%21%21%21%40%2112000057320883865%21afff%21%21%21&af=331569&dp=12251_1795157577_25e26a997925109e9202f0e974127069&cn=&Afref=http%3A%2F%2Fwww.trovaprezzi.it&af=331569&dp=12251_1795157577_25e26a997925109e9202f0e974127069&cn=&Afref=http%3A%2F%2Fwww.trovaprezzi.it&aff_fcid=c81ac9ce892e49f684970584fe73b02f-1795157578000-01045-eYB6MVF&aff_fsk=eYB6MVF&aff_platform=promotion&sk=eYB6MVF&aff_trace_key=c81ac9ce892e49f684970584fe73b02f-1795157578000-01045-eYB6MVF&terminal_id=3e2180da3ced4ea283654c634f9a40f7&afSmartRedirect=y",
+              "verified": true,
+              "manual": true,
+              "coupon": null,
+              "couponRule": null
+            }
+          ],
           "cpu-9600x": [
             {
               "id": "offer-mwod6heo-0c18w",
@@ -616,9 +634,9 @@
           "cpu-9700x": "https://cdn.idealo.com/folder/Product/204581/6/204581631/s10_produktbild_max/amd-ryzen-7-9700x-tray.jpg",
           "cpu-9600x": "https://pics.trovaprezzi.it/it-300x300/920347181.jpg"
         },
-        "updatedAt": 1795157496599
+        "updatedAt": 1795157781869
       }
     }
   ],
-  "updatedAt": 1795157520757
+  "updatedAt": 1795157963233
 }
