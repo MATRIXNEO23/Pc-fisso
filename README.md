@@ -18,6 +18,8 @@ Righe, foto e pulsanti hanno spazi ridotti per mostrare più prodotti.
 
 Preferiti, ordine prodotti, più offerte per prodotto e link di acquisto cliccabili nel preventivo HTML/PDF sono conservati. Usa la stampa del browser e scegli Salva come PDF.
 
+Ogni prodotto ha un selettore **Quantità** con pulsanti − / + e inserimento diretto. I prezzi delle offerte sono unitari; la riga mostra quantità × prezzo e totale prodotto. Il totale del PC e il preventivo esportato includono la quantità. Il costo di spedizione inserito manualmente resta invariato ed è segnalato da verificare quando si acquistano più pezzi. Il coupon si applica una sola volta all’offerta selezionata, verificando la soglia sul totale dei pezzi. La quantità indica il numero di confezioni: un kit RAM 2×16 GB con quantità 1 resta un solo kit. Le quantità sono indipendenti tra prodotti e preventivi e si conservano nei salvataggi locali, online e nell’HTML; i dati precedenti partono da quantità 1.
+
 ## Salvataggi e sincronizzazione
 
 Le modifiche sono salvate automaticamente nel browser. **Esporta configuratore HTML** conserva tutte le pagine in una copia portatile. **Salva online** scrive tutti i preventivi in [shared-config.json](shared-config.json), così sono leggibili anche dall'assistente e dagli altri dispositivi. **Salva in repository** aggiunge un salvataggio finale: conserva gli stessi dati anche dentro l’HTML completo, aggiornando insieme `shared-config.json`, `Configuratore_PC_Conegliano.html` e `docs/index.html`. L’HTML contiene tutte le pagine del preventivo ed è utilizzabile anche offline. Il sito si aggiorna dopo la pubblicazione automatica di GitHub Pages. **Carica online** recupera la versione condivisa e chiede conferma prima di sostituire quella locale.
@@ -34,7 +36,6 @@ Il file HTML principale e `docs/index.html` devono essere aggiornati insieme qua
 
 ## Verifiche
 
-Controllate la sintassi JavaScript, la migrazione dei dati precedenti, l'indipendenza dei preventivi, creazione/duplicazione/rinomina/eliminazione, persistenza delle scelte vuote, foto, validazione dei link, ricerca Google, esportazione dei link di acquisto, preferiti e ordine. Eseguire `node tests/offers.cjs` dalla cartella della repository per verificare indipendenza delle spedizioni, modifica delle offerte non selezionate, coupon, migrazione, persistenza, duplicazione dei preventivi ed esportazione HTML. I test eseguono il JavaScript reale della pagina e sostituiscono soltanto il DOM e la memoria del browser; non inviano scritture a GitHub.
+Controllate la sintassi JavaScript, la migrazione dei dati precedenti, l'indipendenza dei preventivi, creazione/duplicazione/rinomina/eliminazione, persistenza delle scelte vuote, foto, validazione dei link, ricerca Google, esportazione dei link di acquisto, preferiti e ordine. Eseguire `node tests/offers.cjs` dalla cartella della repository per verificare indipendenza delle spedizioni, modifica delle offerte non selezionate, coupon, migrazione, persistenza, duplicazione dei preventivi ed esportazione HTML. Eseguire anche `node tests/quantities.cjs` per quantità, costo unitario e totale riga, spedizione manuale invariata, coupon singoli, soglie, migrazione, persistenza e duplicazione dei preventivi. I test eseguono il JavaScript reale della pagina e sostituiscono soltanto il DOM e la memoria del browser; non inviano scritture a GitHub.
 
 Prezzi, disponibilità, condizione nuovo/usato e compatibilità da confermare prima dell'acquisto.
-
