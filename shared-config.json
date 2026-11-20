@@ -7,7 +7,7 @@
       "name": "Preventivo 1",
       "state": {
         "selected": {
-          "cpu": "cpu-9600x",
+          "cpu": "cpu-8700f",
           "ram": "ram-kingston32",
           "gpu": "custom-mwo2wh2x-ng8zk",
           "motherboard": "mb-eagle-ax",
@@ -17,7 +17,9 @@
           "cooler": "cooler-amazon-user"
         },
         "applyCoupon": true,
-        "shippingOverrides": {},
+        "shippingOverrides": {
+          "redgaming": 790
+        },
         "budget": 140000,
         "prices": {
           "custom-mwo2wh2x-ng8zk": 56208,
@@ -91,12 +93,23 @@
             "label": "Amazon",
             "fee": 0,
             "rule": "Tariffa inserita manualmente."
+          },
+          "custom-shop-mwod6heo-0c18w": {
+            "name": "gtofficinedelcomputer.it",
+            "label": "gtofficinedelcomputer.it",
+            "fee": 0,
+            "rule": "Tariffa inserita manualmente."
           }
         },
         "extraCategories": [],
         "deleted": [],
         "productOrder": {
-          "cpu": [],
+          "cpu": [
+            "cpu-9700x",
+            "cpu-9600x",
+            "cpu-7600",
+            "cpu-8700f"
+          ],
           "ram": [],
           "gpu": [],
           "motherboard": [],
@@ -107,10 +120,43 @@
         },
         "offers": {
           "cpu-8700f": [],
-          "cpu-9700x": [],
+          "cpu-9700x": [
+            {
+              "id": "offer-mwodzd7j-b1ebs",
+              "price": 21830,
+              "shop": "redgaming",
+              "url": "https://redgaming.it/cpu-tray/31185-cpu-amd-tray-ryzen-7-9700x-am5-55-ghz-32mb-cache.html?utm_campaign=prodotto&utm_medium=cpc&utm_source=trovaprezzi",
+              "verified": false,
+              "manual": true,
+              "coupon": null,
+              "couponRule": null
+            }
+          ],
           "cpu-7600": [],
-          "cpu-9600x": [],
-          "ram-kingston16": [],
+          "cpu-9600x": [
+            {
+              "id": "offer-mwod6heo-0c18w",
+              "price": 15700,
+              "shop": "custom-shop-mwod6heo-0c18w",
+              "url": "https://gtofficinedelcomputer.it/processori-pc/91048-amd-ryzen-5-9600x-no-fan-box-0730143315609.html",
+              "verified": true,
+              "manual": true,
+              "coupon": null,
+              "couponRule": null
+            }
+          ],
+          "ram-kingston16": [
+            {
+              "id": "offer-mwocoydg-n8md2",
+              "price": 15534,
+              "shop": "custom-shop-mwo2wh2x-ng8zk",
+              "url": "https://www.amazon.it/dp/B0F2YD8NYH?tag=trovaprezzi-mp-ce-prime-21&linkCode=df0&smid=A3M9V4HR0UWN9L&ascsubtag=amazonmpce_ngs",
+              "verified": false,
+              "manual": true,
+              "coupon": null,
+              "couponRule": null
+            }
+          ],
           "ram-lexar16": [],
           "ram-kingston32": [],
           "gpu-rx9060": [],
@@ -135,7 +181,7 @@
           "cpu-8700f": "base",
           "cpu-9700x": "base",
           "cpu-7600": "base",
-          "cpu-9600x": "base",
+          "cpu-9600x": "offer-mwod6heo-0c18w",
           "ram-kingston16": "base",
           "ram-lexar16": "base",
           "ram-kingston32": "base",
@@ -158,10 +204,12 @@
           "custom-mwo2wh2x-ng8zk": "base"
         },
         "favoriteProducts": [],
-        "images": {},
-        "updatedAt": 1795135822971
+        "images": {
+          "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg"
+        },
+        "updatedAt": 1795143318175
       }
     }
   ],
-  "updatedAt": 1795139676867
+  "updatedAt": 1795143853384
 }
