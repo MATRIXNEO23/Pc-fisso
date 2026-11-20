@@ -11,7 +11,7 @@
           "ram": "ram-kingston32",
           "gpu": "custom-mwo2wh2x-ng8zk",
           "motherboard": "mb-eagle-ax",
-          "ssd": "custom-mwom4wdq-tts99",
+          "ssd": "ssd-1000",
           "psu": "custom-mwol6zgj-ahstw",
           "case": "case-phanteks-xt-ultra",
           "cooler": "cooler-amazon-user"
@@ -87,21 +87,6 @@
             "couponRule": null,
             "shippingFee": null
           },
-          "cpu-8700f": {
-            "id": "cpu-8700f",
-            "name": "AMD Ryzen 7 8700F",
-            "spec": "Tray · AM5 · 8 core / 16 thread",
-            "price": 12900,
-            "shop": "memo",
-            "url": "https://memodigitale.it/products/processore-amd-100-000001590-proamdryz0320?variant=68137466232920",
-            "shippingText": "Gratis",
-            "status": "Su ordinazione nella ricerca",
-            "category": "cpu",
-            "categoryName": "Processore",
-            "coupon": null,
-            "couponRule": null,
-            "shippingFee": 0
-          },
           "cpu-9700x": {
             "id": "cpu-9700x",
             "name": "AMD Ryzen 7 9700X",
@@ -116,24 +101,6 @@
             "coupon": null,
             "couponRule": null,
             "shippingFee": null
-          },
-          "cpu-7600": {
-            "id": "cpu-7600",
-            "name": "AMD Ryzen 5 7600",
-            "spec": "Nuovo · Box · AM5 · Zen 4 · 6 core / 12 thread · 65 W · B650 Eagle AX: BIOS F1 o successivo · Wraith Stealth incluso",
-            "price": 17999,
-            "shop": "memo",
-            "url": "https://memodigitale.it/collections/processori-amd-ryzen?page=2",
-            "source": "https://memodigitale.it/collections/processori-amd-ryzen?page=2",
-            "shippingText": "Gratis",
-            "status": "Prezzo di catalogo; disponibilità da riconfermare",
-            "uncertain": true,
-            "hardwareSource": "https://www.aorus.com/it/motherboards/B650-EAGLE-AX-rev-10-11/support/cpu-support",
-            "category": "cpu",
-            "categoryName": "Processore",
-            "coupon": null,
-            "couponRule": null,
-            "shippingFee": 0
           },
           "cpu-9600x": {
             "id": "cpu-9600x",
@@ -507,14 +474,14 @@
           "case-lancool216",
           "gpu-asus5060",
           "gpu-inno5060",
-          "psu-cm"
+          "psu-cm",
+          "cpu-7600",
+          "cpu-8700f"
         ],
         "productOrder": {
           "cpu": [
             "cpu-9700x",
-            "cpu-9600x",
-            "cpu-7600",
-            "cpu-8700f"
+            "cpu-9600x"
           ],
           "ram": [],
           "gpu": [],
@@ -530,7 +497,6 @@
           "cooler": []
         },
         "offers": {
-          "cpu-8700f": [],
           "cpu-9700x": [
             {
               "id": "offer-mwodzd7j-b1ebs",
@@ -542,19 +508,6 @@
               "coupon": null,
               "couponRule": null,
               "shippingFee": 790
-            }
-          ],
-          "cpu-7600": [
-            {
-              "id": "offer-mwomldgs-ojy6c",
-              "shippingFee": 0,
-              "price": 12238,
-              "shop": "custom-shop-mwomldgs-ojy6c",
-              "url": "https://it.aliexpress.com/item/1005012028251728.html?aff_fsk=_oEaw5ME&src=AwinIT4&pdp_npi=4%40dis%21EUR%21291.38%21137.97%21%21%21%21%21%40%2112000057320883865%21afff%21%21%21&af=331569&dp=12251_1795157577_25e26a997925109e9202f0e974127069&cn=&Afref=http%3A%2F%2Fwww.trovaprezzi.it&af=331569&dp=12251_1795157577_25e26a997925109e9202f0e974127069&cn=&Afref=http%3A%2F%2Fwww.trovaprezzi.it&aff_fcid=c81ac9ce892e49f684970584fe73b02f-1795157578000-01045-eYB6MVF&aff_fsk=eYB6MVF&aff_platform=promotion&sk=eYB6MVF&aff_trace_key=c81ac9ce892e49f684970584fe73b02f-1795157578000-01045-eYB6MVF&terminal_id=3e2180da3ced4ea283654c634f9a40f7&afSmartRedirect=y",
-              "verified": true,
-              "manual": true,
-              "coupon": null,
-              "couponRule": null
             }
           ],
           "cpu-9600x": [
@@ -598,9 +551,7 @@
           "custom-mwo2wh2x-ng8zk": []
         },
         "selectedOffers": {
-          "cpu-8700f": "base",
           "cpu-9700x": "offer-mwodzd7j-b1ebs",
-          "cpu-7600": "base",
           "cpu-9600x": "offer-mwod6heo-0c18w",
           "ram-kingston16": "base",
           "ram-lexar16": "base",
@@ -630,13 +581,12 @@
           "cooler-amazon-user"
         ],
         "images": {
-          "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg",
           "cpu-9700x": "https://cdn.idealo.com/folder/Product/204581/6/204581631/s10_produktbild_max/amd-ryzen-7-9700x-tray.jpg",
           "cpu-9600x": "https://pics.trovaprezzi.it/it-300x300/920347181.jpg"
         },
-        "updatedAt": 1795157781869
+        "updatedAt": 1795184010450
       }
     }
   ],
-  "updatedAt": 1795157963233
+  "updatedAt": 1795184027934
 }
