@@ -16,7 +16,7 @@ Preferiti, ordine prodotti, più offerte per prodotto e link di acquisto cliccab
 
 ## Salvataggi e sincronizzazione
 
-Le modifiche sono salvate automaticamente nel browser. **Esporta configuratore HTML** conserva tutte le pagine in una copia portatile. **Salva online** scrive tutti i preventivi in [shared-config.json](shared-config.json), così sono leggibili anche dall'assistente e dagli altri dispositivi. **Carica online** recupera la versione condivisa e chiede conferma prima di sostituire quella locale.
+Le modifiche sono salvate automaticamente nel browser. **Esporta configuratore HTML** conserva tutte le pagine in una copia portatile. **Salva online** scrive tutti i preventivi in [shared-config.json](shared-config.json), così sono leggibili anche dall'assistente e dagli altri dispositivi. **Salva in repository** aggiunge un salvataggio finale: conserva gli stessi dati anche dentro l’HTML completo, aggiornando insieme `shared-config.json`, `Configuratore_PC_Conegliano.html` e `docs/index.html`. L’HTML contiene tutte le pagine del preventivo ed è utilizzabile anche offline. Il sito si aggiorna dopo la pubblicazione automatica di GitHub Pages. **Carica online** recupera la versione condivisa e chiede conferma prima di sostituire quella locale.
 
 Per scrivere dal sito occorre un token GitHub a grana fine, limitato a **MATRIXNEO23/Pc-fisso**, con permesso **Contents: Read and write**. Il token resta nella memoria della pagina, non viene salvato nel browser, esportato o inserito nei file pubblici. Chi non ha autorizzazione in scrittura può leggere i preventivi e lavorare su copie locali.
 
@@ -26,7 +26,7 @@ La repository è pubblica: i preventivi e le immagini salvati online sono pubbli
 
 In **Settings → Pages**, scegliere **Deploy from a branch**, branch **main**, cartella **/docs**, quindi **Save**. Il sito sarà servito all'indirizzo indicato sopra. L'applicazione è statica; le scritture autorizzate usano l'API gratuita di GitHub.
 
-Il file HTML principale e `docs/index.html` devono essere aggiornati insieme quando si modifica il programma; i nuovi preventivi salvati dal sito aggiornano direttamente `shared-config.json`.
+Il file HTML principale e `docs/index.html` devono essere aggiornati insieme quando si modifica il programma; **Salva online** aggiorna solo `shared-config.json`, mentre **Salva in repository** aggiorna tutti e tre i file in un unico commit. Il salvataggio completo legge prima l’ultima sorgente HTML e rifiuta un aggiornamento concorrente del ramo, preservando i dati locali in caso di errore.
 
 ## Verifiche
 
