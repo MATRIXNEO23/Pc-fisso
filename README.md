@@ -12,6 +12,10 @@ Ogni pagina è un configuratore completo e indipendente. Usa **Nuovo preventivo*
 
 Su telefono i prodotti diventano schede; su PC si usa la tabella. Se manca una foto, il riquadro apre **Google Immagini con il nome del prodotto**. **Imposta foto** accetta un link diretto all'immagine o un file. Le foto caricate vengono ridimensionate a un massimo di 1200 pixel, quelle presenti si ingrandiscono in un pop-up.
 
+**Prezzo, negozio, spedizione, coupon e link appartengono alla singola offerta.** Modificare un’offerta non cambia le altre, anche quando il negozio è lo stesso. La foto, il nome e i dettagli restano comuni al prodotto. Ogni offerta ha il proprio pulsante **Modifica**; **+ Aggiungi offerta** mantiene la selezione precedente. Spedizioni e sconti nel totale sono calcolati sulle singole offerte selezionate. I vecchi costi per negozio vengono recuperati alla prima apertura e resi indipendenti.
+
+Righe, foto e pulsanti hanno spazi ridotti per mostrare più prodotti.
+
 Preferiti, ordine prodotti, più offerte per prodotto e link di acquisto cliccabili nel preventivo HTML/PDF sono conservati. Usa la stampa del browser e scegli Salva come PDF.
 
 ## Salvataggi e sincronizzazione
@@ -30,6 +34,7 @@ Il file HTML principale e `docs/index.html` devono essere aggiornati insieme qua
 
 ## Verifiche
 
-Controllate la sintassi JavaScript, la migrazione dei dati precedenti, l'indipendenza dei preventivi, creazione/duplicazione/rinomina/eliminazione, persistenza delle scelte vuote, foto, validazione dei link, ricerca Google, esportazione dei link di acquisto, preferiti e ordine. Il totale iniziale resta **1.381,32 € più le spedizioni mancanti**. Verifica visiva su dispositivi reali ancora da completare.
+Controllate la sintassi JavaScript, la migrazione dei dati precedenti, l'indipendenza dei preventivi, creazione/duplicazione/rinomina/eliminazione, persistenza delle scelte vuote, foto, validazione dei link, ricerca Google, esportazione dei link di acquisto, preferiti e ordine. Eseguire `node tests/offers.cjs` dalla cartella della repository per verificare indipendenza delle spedizioni, modifica delle offerte non selezionate, coupon, migrazione, persistenza, duplicazione dei preventivi ed esportazione HTML. I test eseguono il JavaScript reale della pagina e sostituiscono soltanto il DOM e la memoria del browser; non inviano scritture a GitHub.
 
 Prezzi, disponibilità, condizione nuovo/usato e compatibilità da confermare prima dell'acquisto.
+
