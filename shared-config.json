@@ -603,16 +603,22 @@
           "cpu-9700x",
           "cpu-9600x",
           "ram-kingston32",
-          "custom-mwo2wh2x-ng8zk"
+          "custom-mwo2wh2x-ng8zk",
+          "mb-eagle-ax",
+          "custom-mwom4wdq-tts99",
+          "ssd-1000",
+          "custom-mwol6zgj-ahstw",
+          "psu-prime850",
+          "cooler-amazon-user"
         ],
         "images": {
           "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg",
           "cpu-9700x": "https://cdn.idealo.com/folder/Product/204581/6/204581631/s10_produktbild_max/amd-ryzen-7-9700x-tray.jpg",
           "cpu-9600x": "https://pics.trovaprezzi.it/it-300x300/920347181.jpg"
         },
-        "updatedAt": 1795157028084
+        "updatedAt": 1795157496599
       }
     }
   ],
-  "updatedAt": 1795157382558
+  "updatedAt": 1795157520757
 }
