@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 2,
+  "activeId": "preventivo-iniziale",
+  "quotes": [
+    {
+      "id": "preventivo-iniziale",
+      "name": "Preventivo 1",
+      "state": {
+        "selected": {
+          "cpu": "cpu-9600x",
+          "ram": "ram-kingston32",
+          "gpu": "custom-mwo2wh2x-ng8zk",
+          "motherboard": "mb-eagle-ax",
+          "ssd": "ssd-1000",
+          "psu": "psu-prime850",
+          "case": "case-phanteks-xt-ultra",
+          "cooler": "cooler-amazon-user"
+        },
+        "applyCoupon": true,
+        "shippingOverrides": {},
+        "budget": 140000,
+        "prices": {
+          "custom-mwo2wh2x-ng8zk": 56208,
+          "psu-prime850": 8499,
+          "cooler-amazon-user": 4752,
+          "psu-rm850x": 10790
+        },
+        "edits": {
+          "custom-mwo2wh2x-ng8zk": {
+            "name": "Sapphire technology Carte Graphique Pulse AMD Radeon RX 9060 XT Gaming OC 16GB Double HDMI-DP",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://amzn.eu/d/0dmn3yrw",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
+          },
+          "psu-prime850": {
+            "name": "ASUS Prime 850W Gold Black Edition",
+            "spec": "ATX 3.1 · PCIe 5.1 · 80 Plus Gold · completamente modulare · PRIME-850G · Nuovo/usato: da verificare · prezzo indicativo",
+            "shop": "amazon-prime850",
+            "url": "https://amzn.eu/d/0beSpOTI",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
+          },
+          "cooler-amazon-user": {
+            "name": "Thermalright TR Phantom Spirit 140 Black - Dissipatore di calore per CPU Tubi di calore da 7 x 6 mm, tecnologia AGHP, per AM4/AM5/Intel 1700/1150/1151/1200/1851, ventola per PC",
+            "spec": "Link segnalato da te · Nuovo/usato: da verificare",
+            "shop": "amazon-cooler-user",
+            "url": "https://amzn.eu/d/052LzeHi",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
+          },
+          "psu-rm850x": {
+            "name": "Corsair RM850x · 850 W (2024)",
+            "spec": "ATX 3.1 · PCIe 5.1 · Cybenetics Gold · completamente modulare · CP-9020270-EU · Nuovo/usato: da verificare · prezzo indicativo",
+            "shop": "amazon-rm850x",
+            "url": "https://amzn.eu/d/02ohSgPM",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
+          }
+        },
+        "custom": [
+          {
+            "id": "custom-mwo2wh2x-ng8zk",
+            "category": "gpu",
+            "price": 56208,
+            "name": "Sapphire technology Carte Graphique Pulse AMD Radeon RX 9060 XT Gaming OC 16GB Double HDMI-DP",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://amzn.eu/d/0dmn3yrw",
+            "verified": true,
+            "manual": true,
+            "couponRule": null,
+            "hardware": {
+              "length": 240
+            },
+            "hardwareSource": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9060-xt-16g-gddr6"
+          }
+        ],
+        "customShops": {
+          "custom-shop-mwo2wh2x-ng8zk": {
+            "name": "Amazon",
+            "label": "Amazon",
+            "fee": 0,
+            "rule": "Tariffa inserita manualmente."
+          }
+        },
+        "extraCategories": [],
+        "deleted": [],
+        "productOrder": {
+          "cpu": [],
+          "ram": [],
+          "gpu": [],
+          "motherboard": [],
+          "ssd": [],
+          "psu": [],
+          "case": [],
+          "cooler": []
+        },
+        "offers": {
+          "cpu-8700f": [],
+          "cpu-9700x": [],
+          "cpu-7600": [],
+          "cpu-9600x": [],
+          "ram-kingston16": [],
+          "ram-lexar16": [],
+          "ram-kingston32": [],
+          "gpu-rx9060": [],
+          "gpu-asus5060": [],
+          "gpu-inno5060": [],
+          "mb-eagle-ax": [],
+          "ssd-500": [],
+          "ssd-1000": [],
+          "psu-cm": [],
+          "psu-msi": [],
+          "psu-rm850x": [],
+          "psu-prime850": [],
+          "case-phanteks-xt-ultra": [],
+          "case-lancool216": [],
+          "cooler-phantom-se": [],
+          "cooler-peerless-se": [],
+          "cooler-ak620": [],
+          "cooler-amazon-user": [],
+          "custom-mwo2wh2x-ng8zk": []
+        },
+        "selectedOffers": {
+          "cpu-8700f": "base",
+          "cpu-9700x": "base",
+          "cpu-7600": "base",
+          "cpu-9600x": "base",
+          "ram-kingston16": "base",
+          "ram-lexar16": "base",
+          "ram-kingston32": "base",
+          "gpu-rx9060": "base",
+          "gpu-asus5060": "base",
+          "gpu-inno5060": "base",
+          "mb-eagle-ax": "base",
+          "ssd-500": "base",
+          "ssd-1000": "base",
+          "psu-cm": "base",
+          "psu-msi": "base",
+          "psu-rm850x": "base",
+          "psu-prime850": "base",
+          "case-phanteks-xt-ultra": "base",
+          "case-lancool216": "base",
+          "cooler-phantom-se": "base",
+          "cooler-peerless-se": "base",
+          "cooler-ak620": "base",
+          "cooler-amazon-user": "base",
+          "custom-mwo2wh2x-ng8zk": "base"
+        },
+        "favoriteProducts": [],
+        "images": {},
+        "updatedAt": 1795135822971
+      }
+    }
+  ],
+  "updatedAt": 1795135822971
+}
