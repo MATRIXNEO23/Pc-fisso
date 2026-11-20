@@ -7,12 +7,12 @@
       "name": "Preventivo 1",
       "state": {
         "selected": {
-          "cpu": "cpu-9600x",
+          "cpu": "cpu-9700x",
           "ram": "ram-kingston32",
           "gpu": "custom-mwo2wh2x-ng8zk",
           "motherboard": "mb-eagle-ax",
-          "ssd": "custom-mwofh70t-zlt8h",
-          "psu": "psu-prime850",
+          "ssd": "custom-mwom4wdq-tts99",
+          "psu": "custom-mwol6zgj-ahstw",
           "case": "case-phanteks-xt-ultra",
           "cooler": "cooler-amazon-user"
         },
@@ -27,7 +27,9 @@
           "ram-kingston16": 12368,
           "custom-mwofh70t-zlt8h": 15674,
           "cooler-phantom-se": 3432,
-          "custom-mwol6zgj-ahstw": 7999
+          "custom-mwol6zgj-ahstw": 7999,
+          "cpu-9600x": 17499,
+          "custom-mwom4wdq-tts99": 11399
         },
         "edits": {
           "custom-mwo2wh2x-ng8zk": {
@@ -149,7 +151,9 @@
             "categoryName": "Processore",
             "coupon": null,
             "couponRule": null,
-            "shippingFee": 0
+            "shippingFee": 0,
+            "verified": false,
+            "manual": true
           },
           "ram-kingston16": {
             "id": "ram-kingston16",
@@ -229,44 +233,6 @@
             },
             "shippingFee": 0
           },
-          "gpu-asus5060": {
-            "id": "gpu-asus5060",
-            "name": "ASUS Dual RTX 5060 Ti",
-            "spec": "16 GB GDDR7 · 90YV0MH0-M0NA00",
-            "price": 79131,
-            "shop": "market",
-            "url": "https://www.market2go.it/it/schede-grafiche/1300090-tarjeta-gr%C3%A1fica-asus-rtx-5060ti-16gb-dual-4711387994306.html",
-            "shippingText": "Gratis secondo le condizioni pubblicate",
-            "status": "Disponibile nella ricerca",
-            "coupon": null,
-            "category": "gpu",
-            "categoryName": "Scheda video · 16 GB",
-            "couponRule": {
-              "code": "251IKDT7",
-              "amount": 5000,
-              "min": 48800
-            },
-            "shippingFee": 0
-          },
-          "gpu-inno5060": {
-            "id": "gpu-inno5060",
-            "name": "Inno3D RTX 5060 Ti Twin X2 OC",
-            "spec": "16 GB GDDR7 · N506T2-16D7X-191073N",
-            "price": 79131,
-            "shop": "market",
-            "url": "https://www.market2go.it/it/schede-grafiche/1300390-tarjeta-gr%C3%A1fica-inno3d-rtx-5060-ti-twin-x2-oc-16gb-8886307700681.html",
-            "shippingText": "Gratis secondo le condizioni pubblicate",
-            "status": "Disponibile nella ricerca",
-            "coupon": null,
-            "category": "gpu",
-            "categoryName": "Scheda video · 16 GB",
-            "couponRule": {
-              "code": "251IKDT7",
-              "amount": 5000,
-              "min": 48800
-            },
-            "shippingFee": 0
-          },
           "mb-eagle-ax": {
             "id": "mb-eagle-ax",
             "name": "Gigabyte B650 EAGLE AX",
@@ -317,21 +283,6 @@
             "coupon": null,
             "couponRule": null,
             "shippingFee": 689
-          },
-          "psu-cm": {
-            "id": "psu-cm",
-            "name": "Cooler Master MWE Bronze 650 W V3",
-            "spec": "80 Plus Bronze · MPE-6501-ACABW-3BEU",
-            "price": 5150,
-            "shop": "ldlc",
-            "url": "https://www.ldlc.com/it-it/scheda/PB00650050.html",
-            "shippingText": "Gratis da 50 € sullo stesso ordine LDLC",
-            "status": "Disponibile nella ricerca",
-            "category": "psu",
-            "categoryName": "Alimentatore",
-            "coupon": null,
-            "couponRule": null,
-            "shippingFee": 0
           },
           "psu-msi": {
             "id": "psu-msi",
@@ -456,6 +407,17 @@
             "manual": true,
             "coupon": null,
             "couponRule": null
+          },
+          "custom-mwom4wdq-tts99": {
+            "shippingFee": 0,
+            "name": "Acer Predator GM7 SSD NVMe 512GB M.2 2280 PCIe Gen4 x4, Fino a 7400 MB/s, Con Tecnologia HMB+SLC, Unità SSD Interna per PC Portatile, Desktop e PS5",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/Acer-Predator-GM7-512GB-2280/dp/B0CPN8CHV2?ref=dlx_black_dg_dcl_B0CPN8CHV2_dt_sl7_40&pf_rd_r=WP3ZB8YKY15MFZNY2646&pf_rd_p=9a2ef190-968d-4cbe-b199-1c6cdf1ab540&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
           }
         },
         "custom": [
@@ -502,6 +464,20 @@
             "manual": true,
             "coupon": null,
             "couponRule": null
+          },
+          {
+            "id": "custom-mwom4wdq-tts99",
+            "category": "ssd",
+            "price": 11399,
+            "shippingFee": 0,
+            "name": "Acer Predator GM7 SSD NVMe 512GB M.2 2280 PCIe Gen4 x4, Fino a 7400 MB/s, Con Tecnologia HMB+SLC, Unità SSD Interna per PC Portatile, Desktop e PS5",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/Acer-Predator-GM7-512GB-2280/dp/B0CPN8CHV2?ref=dlx_black_dg_dcl_B0CPN8CHV2_dt_sl7_40&pf_rd_r=WP3ZB8YKY15MFZNY2646&pf_rd_p=9a2ef190-968d-4cbe-b199-1c6cdf1ab540&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
           }
         ],
         "customShops": {
@@ -522,7 +498,10 @@
         "deleted": [
           "psu-rm850x",
           "cooler-ak620",
-          "case-lancool216"
+          "case-lancool216",
+          "gpu-asus5060",
+          "gpu-inno5060",
+          "psu-cm"
         ],
         "productOrder": {
           "cpu": [
@@ -534,7 +513,12 @@
           "ram": [],
           "gpu": [],
           "motherboard": [],
-          "ssd": [],
+          "ssd": [
+            "ssd-500",
+            "ssd-1000",
+            "custom-mwom4wdq-tts99",
+            "custom-mwofh70t-zlt8h"
+          ],
           "psu": [],
           "case": [],
           "cooler": []
@@ -584,12 +568,9 @@
           "ram-lexar16": [],
           "ram-kingston32": [],
           "gpu-rx9060": [],
-          "gpu-asus5060": [],
-          "gpu-inno5060": [],
           "mb-eagle-ax": [],
           "ssd-500": [],
           "ssd-1000": [],
-          "psu-cm": [],
           "psu-msi": [],
           "psu-prime850": [],
           "case-phanteks-xt-ultra": [],
@@ -607,12 +588,9 @@
           "ram-lexar16": "base",
           "ram-kingston32": "base",
           "gpu-rx9060": "base",
-          "gpu-asus5060": "base",
-          "gpu-inno5060": "base",
           "mb-eagle-ax": "base",
           "ssd-500": "base",
           "ssd-1000": "base",
-          "psu-cm": "base",
           "psu-msi": "base",
           "psu-prime850": "base",
           "case-phanteks-xt-ultra": "base",
@@ -624,16 +602,17 @@
         "favoriteProducts": [
           "cpu-9700x",
           "cpu-9600x",
-          "ram-kingston32"
+          "ram-kingston32",
+          "custom-mwo2wh2x-ng8zk"
         ],
         "images": {
           "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg",
           "cpu-9700x": "https://cdn.idealo.com/folder/Product/204581/6/204581631/s10_produktbild_max/amd-ryzen-7-9700x-tray.jpg",
           "cpu-9600x": "https://pics.trovaprezzi.it/it-300x300/920347181.jpg"
         },
-        "updatedAt": 1795155939099
+        "updatedAt": 1795157028084
       }
     }
   ],
-  "updatedAt": 1795155993912
+  "updatedAt": 1795157382558
 }
