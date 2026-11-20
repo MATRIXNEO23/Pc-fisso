@@ -7,62 +7,451 @@
       "name": "Preventivo 1",
       "state": {
         "selected": {
-          "cpu": "cpu-8700f",
+          "cpu": "cpu-9600x",
           "ram": "ram-kingston32",
           "gpu": "custom-mwo2wh2x-ng8zk",
           "motherboard": "mb-eagle-ax",
-          "ssd": "ssd-1000",
+          "ssd": "custom-mwofh70t-zlt8h",
           "psu": "psu-prime850",
           "case": "case-phanteks-xt-ultra",
           "cooler": "cooler-amazon-user"
         },
         "applyCoupon": true,
-        "shippingOverrides": {
-          "redgaming": 790
-        },
+        "shippingOverrides": {},
         "budget": 140000,
         "prices": {
           "custom-mwo2wh2x-ng8zk": 56208,
           "psu-prime850": 8499,
           "cooler-amazon-user": 4752,
-          "psu-rm850x": 10790
+          "ram-lexar16": 23360,
+          "ram-kingston16": 12368,
+          "custom-mwofh70t-zlt8h": 15674,
+          "cooler-phantom-se": 3432,
+          "custom-mwol6zgj-ahstw": 7999
         },
         "edits": {
           "custom-mwo2wh2x-ng8zk": {
+            "id": "custom-mwo2wh2x-ng8zk",
+            "category": "gpu",
+            "price": 56208,
             "name": "Sapphire technology Carte Graphique Pulse AMD Radeon RX 9060 XT Gaming OC 16GB Double HDMI-DP",
             "spec": "",
             "shop": "custom-shop-mwo2wh2x-ng8zk",
             "url": "https://amzn.eu/d/0dmn3yrw",
             "verified": true,
             "manual": true,
+            "couponRule": null,
+            "hardware": {
+              "length": 240
+            },
+            "hardwareSource": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9060-xt-16g-gddr6",
             "coupon": null,
-            "couponRule": null
+            "shippingFee": 0
           },
           "psu-prime850": {
+            "id": "psu-prime850",
             "name": "ASUS Prime 850W Gold Black Edition",
             "spec": "ATX 3.1 · PCIe 5.1 · 80 Plus Gold · completamente modulare · PRIME-850G · Nuovo/usato: da verificare · prezzo indicativo",
+            "price": 8499,
             "shop": "amazon-prime850",
             "url": "https://amzn.eu/d/0beSpOTI",
+            "source": "https://safqio.com/it/p/asus-prime-850w-gold-B0GFXBW7YX",
+            "uncertain": true,
+            "shippingText": "Da verificare",
+            "status": "Precedente prezzo indicativo del comparatore; prezzo Amazon Italia attuale non disponibile",
+            "hardwareSource": "https://www.asus.com/it/motherboards-components/power-supply-units/prime/prime-850g/techspec/",
+            "category": "psu",
+            "categoryName": "Alimentatore",
             "verified": true,
             "manual": true,
             "coupon": null,
-            "couponRule": null
+            "couponRule": null,
+            "shippingFee": null
           },
           "cooler-amazon-user": {
+            "id": "cooler-amazon-user",
             "name": "Thermalright TR Phantom Spirit 140 Black - Dissipatore di calore per CPU Tubi di calore da 7 x 6 mm, tecnologia AGHP, per AM4/AM5/Intel 1700/1150/1151/1200/1851, ventola per PC",
             "spec": "Link segnalato da te · Nuovo/usato: da verificare",
+            "price": 4752,
             "shop": "amazon-cooler-user",
             "url": "https://amzn.eu/d/052LzeHi",
             "verified": true,
+            "status": "Prezzo di 47,52 € indicato da te. Amazon non permette di leggere il titolo in questa sessione: modello e compatibilità ancora da confermare.",
+            "priceDate": "2026-11-20",
+            "category": "cooler",
+            "categoryName": "Dissipatore CPU",
+            "manual": true,
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": null
+          },
+          "cpu-8700f": {
+            "id": "cpu-8700f",
+            "name": "AMD Ryzen 7 8700F",
+            "spec": "Tray · AM5 · 8 core / 16 thread",
+            "price": 12900,
+            "shop": "memo",
+            "url": "https://memodigitale.it/products/processore-amd-100-000001590-proamdryz0320?variant=68137466232920",
+            "shippingText": "Gratis",
+            "status": "Su ordinazione nella ricerca",
+            "category": "cpu",
+            "categoryName": "Processore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 0
+          },
+          "cpu-9700x": {
+            "id": "cpu-9700x",
+            "name": "AMD Ryzen 7 9700X",
+            "spec": "OEM / tray · AM5 · 8 core / 16 thread",
+            "price": 23071,
+            "shop": "giga",
+            "url": "https://www.gigatrade.it/processori/50133-amd-ryzen-7-9700x---38-ghz---8-core---16-thread-0019040307000.html",
+            "shippingText": "Da verificare: inserisci la tariffa nel riepilogo",
+            "status": "Disponibile nella ricerca",
+            "category": "cpu",
+            "categoryName": "Processore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": null
+          },
+          "cpu-7600": {
+            "id": "cpu-7600",
+            "name": "AMD Ryzen 5 7600",
+            "spec": "Nuovo · Box · AM5 · Zen 4 · 6 core / 12 thread · 65 W · B650 Eagle AX: BIOS F1 o successivo · Wraith Stealth incluso",
+            "price": 17999,
+            "shop": "memo",
+            "url": "https://memodigitale.it/collections/processori-amd-ryzen?page=2",
+            "source": "https://memodigitale.it/collections/processori-amd-ryzen?page=2",
+            "shippingText": "Gratis",
+            "status": "Prezzo di catalogo; disponibilità da riconfermare",
+            "uncertain": true,
+            "hardwareSource": "https://www.aorus.com/it/motherboards/B650-EAGLE-AX-rev-10-11/support/cpu-support",
+            "category": "cpu",
+            "categoryName": "Processore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 0
+          },
+          "cpu-9600x": {
+            "id": "cpu-9600x",
+            "name": "AMD Ryzen 5 9600X",
+            "spec": "Nuovo · Box · AM5 · Zen 5 · 6 core / 12 thread · 65 W · B650 Eagle AX: BIOS F30 o successivo · dissipatore separato",
+            "price": 17999,
+            "shop": "memo",
+            "url": "https://memodigitale.it/products/amd-ryzen-5-9600x-box?variant=44473079169112",
+            "source": "https://memodigitale.it/products/amd-ryzen-5-9600x-box?variant=44473079169112",
+            "shippingText": "Gratis",
+            "status": "Prezzo pagina prodotto; catalogo discordante, da riconfermare",
+            "uncertain": true,
+            "hardwareSource": "https://www.aorus.com/it/motherboards/B650-EAGLE-AX-rev-10-11/support/cpu-support",
+            "category": "cpu",
+            "categoryName": "Processore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 0
+          },
+          "ram-kingston16": {
+            "id": "ram-kingston16",
+            "name": "Kingston Fury Beast RGB White · 16 GB",
+            "spec": "1 × 16 GB · DDR5-5200 CL40 · KF552C40BWA-16",
+            "price": 12368,
+            "shop": "amazon-tekra",
+            "url": "https://www.amazon.it/dp/B0BZJBWC4R/?smid=A3MFHQVQLRIG17&th=1&psc=1",
+            "shippingText": "13,00 € indicati dal comparatore",
+            "status": "Prezzo e venditore da confermare su Amazon",
+            "uncertain": true,
+            "source": "https://www.idealo.it/confronta-prezzi/202591548/kingston-fury-beast-rgb-16gb-ddr5-5200-cl40-kf552c40bwa-16.html",
+            "category": "ram",
+            "categoryName": "RAM DDR5",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 1300,
+            "verified": false,
+            "manual": true
+          },
+          "ram-lexar16": {
+            "id": "ram-lexar16",
+            "name": "Lexar · 16 GB",
+            "spec": "1 × 16 GB · DDR5-5600 CL46 · LD5U16G56C46ST-BGS",
+            "price": 23360,
+            "shop": "redgaming",
+            "url": "https://redgaming.it/ddr5/29372-ram-lexar-ddr5-5600mhz-16gb-1x16-cl46-0843367132782.html",
+            "shippingText": "5,90 € indicati dal comparatore",
+            "status": "Prezzo con bonifico indicato: da confermare",
+            "uncertain": true,
+            "source": "https://www.idealo.it/confronta-prezzi/205955693/lexar-16gb-ddr5-5600-cl46-ld5u16g56c46st-bgs.html",
+            "category": "ram",
+            "categoryName": "RAM DDR5",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 590,
+            "verified": false,
+            "manual": true
+          },
+          "ram-kingston32": {
+            "id": "ram-kingston32",
+            "name": "Kingston Fury Beast RGB White · 32 GB",
+            "spec": "1 × 32 GB · DDR5-5600 CL36 · KF556C36BWEA-32",
+            "price": 16304,
+            "shop": "amazon-tekra",
+            "url": "https://www.amazon.it/dp/B0BZJ9XPPT/?smid=A3MFHQVQLRIG17&th=1&psc=1",
+            "shippingText": "13,00 € indicati dal comparatore",
+            "status": "Upgrade a 32 GB: offerta Amazon da confermare",
+            "uncertain": true,
+            "source": "https://www.idealo.it/confronta-prezzi/208697380/kingston-fury-beast-rgb-32gb-ddr5-5600-cl36.html",
+            "category": "ram",
+            "categoryName": "RAM DDR5",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 1300
+          },
+          "gpu-rx9060": {
+            "id": "gpu-rx9060",
+            "name": "ASUS TUF RX 9060 XT OC",
+            "spec": "16 GB GDDR6 · TUF-RX9060XT-O16G-GAMING",
+            "price": 70088,
+            "shop": "market",
+            "url": "https://www.market2go.it/it/schede-grafiche/1302330-asus-tuf-gaming-radeon-rx-9060-xt-oc-4711387994191.html",
+            "shippingText": "Gratis secondo le condizioni pubblicate",
+            "status": "Disponibile nella ricerca",
+            "coupon": null,
+            "hardware": {
+              "length": 304
+            },
+            "hardwareSource": "https://www.asus.com/it/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9060xt-o16g-gaming/techspec/",
+            "category": "gpu",
+            "categoryName": "Scheda video · 16 GB",
+            "couponRule": {
+              "code": "251IKDT7",
+              "amount": 5000,
+              "min": 48800
+            },
+            "shippingFee": 0
+          },
+          "gpu-asus5060": {
+            "id": "gpu-asus5060",
+            "name": "ASUS Dual RTX 5060 Ti",
+            "spec": "16 GB GDDR7 · 90YV0MH0-M0NA00",
+            "price": 79131,
+            "shop": "market",
+            "url": "https://www.market2go.it/it/schede-grafiche/1300090-tarjeta-gr%C3%A1fica-asus-rtx-5060ti-16gb-dual-4711387994306.html",
+            "shippingText": "Gratis secondo le condizioni pubblicate",
+            "status": "Disponibile nella ricerca",
+            "coupon": null,
+            "category": "gpu",
+            "categoryName": "Scheda video · 16 GB",
+            "couponRule": {
+              "code": "251IKDT7",
+              "amount": 5000,
+              "min": 48800
+            },
+            "shippingFee": 0
+          },
+          "gpu-inno5060": {
+            "id": "gpu-inno5060",
+            "name": "Inno3D RTX 5060 Ti Twin X2 OC",
+            "spec": "16 GB GDDR7 · N506T2-16D7X-191073N",
+            "price": 79131,
+            "shop": "market",
+            "url": "https://www.market2go.it/it/schede-grafiche/1300390-tarjeta-gr%C3%A1fica-inno3d-rtx-5060-ti-twin-x2-oc-16gb-8886307700681.html",
+            "shippingText": "Gratis secondo le condizioni pubblicate",
+            "status": "Disponibile nella ricerca",
+            "coupon": null,
+            "category": "gpu",
+            "categoryName": "Scheda video · 16 GB",
+            "couponRule": {
+              "code": "251IKDT7",
+              "amount": 5000,
+              "min": 48800
+            },
+            "shippingFee": 0
+          },
+          "mb-eagle-ax": {
+            "id": "mb-eagle-ax",
+            "name": "Gigabyte B650 EAGLE AX",
+            "spec": "ATX · AM5 · DDR5 · Wi-Fi 6E / Bluetooth · Nuovo/usato: da verificare",
+            "price": 12399,
+            "shop": "amazon-eagle",
+            "url": "https://www.amazon.it/dp/B0CSKH1NJF",
+            "source": "https://www.trovaprezzi.it/prezzo_schede-madri_gigabyte_b650_eagle_ax_am5_ddr5_atx.aspx",
+            "shippingText": "Gratis secondo il comparatore; da confermare per il venditore",
+            "status": "123,99 € da comparatore: prezzo, venditore, condizione e BIOS da confermare.",
+            "uncertain": true,
+            "hardware": {
+              "formFactor": "ATX"
+            },
+            "hardwareSource": "https://www.gigabyte.com/Motherboard/B650-EAGLE-AX-rev-10-11/sp",
+            "category": "motherboard",
+            "categoryName": "Scheda madre · AM5 / DDR5",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": null
+          },
+          "ssd-500": {
+            "id": "ssd-500",
+            "name": "Kingston NV3 · 500 GB",
+            "spec": "M.2 2280 · PCIe 4.0 · SNV3S/500G",
+            "price": 8833,
+            "shop": "prima",
+            "url": "https://www.primashopping.it/ssd-m-2-ssd-kingston-nv3-500gb-kingston-snv3s-500g-m-2-pcie-4-0-nvme-mod-snv3s-500g-ean-740617344806.1.37.1620.gp.203945.uw",
+            "shippingText": "Da 6,89 € per ordine",
+            "status": "Offerta dichiarata fino al 20/11/2026",
+            "category": "ssd",
+            "categoryName": "SSD NVMe",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 689
+          },
+          "ssd-1000": {
+            "id": "ssd-1000",
+            "name": "Kingston NV3 · 1 TB",
+            "spec": "M.2 2280 · PCIe 4.0 · SNV3S/1000G",
+            "price": 12992,
+            "shop": "prima",
+            "url": "https://www.primashopping.it/ssd-m-2-ssd-kingston-nv3-1tb-kingston-snv3s-1000g-m-2-pcie-4-0-nvme-mod-snv3s-1000g-ean-740617344790.1.37.1620.gp.203649.uw",
+            "shippingText": "Da 6,89 € per ordine",
+            "status": "Offerta dichiarata fino al 20/11/2026",
+            "category": "ssd",
+            "categoryName": "SSD NVMe",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 689
+          },
+          "psu-cm": {
+            "id": "psu-cm",
+            "name": "Cooler Master MWE Bronze 650 W V3",
+            "spec": "80 Plus Bronze · MPE-6501-ACABW-3BEU",
+            "price": 5150,
+            "shop": "ldlc",
+            "url": "https://www.ldlc.com/it-it/scheda/PB00650050.html",
+            "shippingText": "Gratis da 50 € sullo stesso ordine LDLC",
+            "status": "Disponibile nella ricerca",
+            "category": "psu",
+            "categoryName": "Alimentatore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 0
+          },
+          "psu-msi": {
+            "id": "psu-msi",
+            "name": "MSI MAG A650BN",
+            "spec": "650 W · 80 Plus Bronze",
+            "price": 5395,
+            "shop": "ldlc",
+            "url": "https://www.ldlc.com/it-it/scheda/PB00460057.html",
+            "shippingText": "Gratis da 50 € sullo stesso ordine LDLC",
+            "status": "Disponibile nella ricerca",
+            "category": "psu",
+            "categoryName": "Alimentatore",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 0
+          },
+          "case-phanteks-xt-ultra": {
+            "id": "case-phanteks-xt-ultra",
+            "name": "Phanteks XT Pro Ultra · Nero",
+            "spec": "ATX · frontale mesh · 4 ventole da 140 mm incluse · GPU ≤ 415 mm · dissipatore ≤ 184 mm · AIO: 360 mm sopra / 240 mm davanti · Nuovo/usato: da verificare",
+            "price": 6990,
+            "shop": "amazon-case-phanteks",
+            "url": "https://www.amazon.it/dp/B0CT5V2XJK",
+            "source": "https://www.trovaprezzi.it/prezzo_case-alimentatori_phanteks_xt_pro.aspx",
+            "uncertain": true,
+            "shippingText": "Gratis secondo il comparatore; venditore e tariffa da confermare",
+            "status": "69,90 € da comparatore. Prezzo, condizione, venditore e spedizione Amazon da confermare. Predisposto per AIO da acquistare separatamente; verificare spessore kit e ventole.",
+            "priceDate": "2026-11-20",
+            "hardware": {
+              "boards": [
+                "E-ATX",
+                "ATX",
+                "Micro-ATX",
+                "Mini-ITX"
+              ],
+              "gpuMax": 415,
+              "coolerMax": 184,
+              "psuMax": 270,
+              "radiatorTop": [
+                120,
+                240,
+                360
+              ],
+              "radiatorFront": [
+                120,
+                240
+              ],
+              "radiatorRear": [
+                120
+              ],
+              "fansIncluded": 4
+            },
+            "hardwareSource": "https://phanteks.com/product/xt-pro-ultra-black/",
+            "category": "case",
+            "categoryName": "Case",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": null
+          },
+          "cooler-phantom-se": {
+            "id": "cooler-phantom-se",
+            "name": "Thermalright Phantom Spirit 120 SE",
+            "spec": "AM5 · doppia torre · 7 heatpipe · 2 ventole · 154 mm · Nuovo/usato: da verificare",
+            "price": 5190,
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/Thermalright-Phantom-Heatpipes-cuscinetto-raffreddamento/dp/B0G3KD8W7M/ref=asc_df_B0G3K966MR?mcid=670113e21a173e55ad44ae2aafcea5aa&tag=googshopit-21&linkCode=df0&hvadid=786760243106&hvpos=&hvnetw=g&hvrand=11195123474881350113&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1008890&hvtargid=pla-2471493116851&hvcampaign=23329084525&hvocijid=11195123474881350113-B0G3K966MR-&hvexpln=0&th=1",
+            "source": "https://www.idealo.it/confronta-prezzi/203397438/thermalright-phantom-spirit-120-se.html",
+            "uncertain": true,
+            "hardware": {
+              "height": 154
+            },
+            "hardwareSource": "https://www.thermalright.com/product/phantom-spirit-120-se/",
+            "status": "Scelta consigliata per Ryzen 7 8700F / 9700X. Prezzo e spedizione da comparatore, da confermare; ingombro RAM da verificare.",
+            "priceDate": "2026-11-20",
+            "category": "cooler",
+            "categoryName": "Dissipatore CPU",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": null,
+            "verified": false,
+            "manual": true
+          },
+          "cooler-peerless-se": {
+            "id": "cooler-peerless-se",
+            "name": "Thermalright Peerless Assassin 120 SE",
+            "spec": "AM5 · doppia torre · 6 heatpipe · 2 ventole · 155 mm · Nuovo/usato: da verificare",
+            "price": 3222,
+            "shop": "amazon-peerless",
+            "url": "https://www.amazon.it/dp/B0D9YB6DXG/?smid=ALLEKU42OW8H0&th=1&psc=1",
+            "source": "https://www.idealo.it/confronta-prezzi/202870980/thermalright-peerless-assassin-120-se.html",
+            "uncertain": true,
+            "hardware": {
+              "height": 155
+            },
+            "hardwareSource": "https://www.thermalright.com/product/peerless-assassin-120-se/",
+            "status": "Alternativa per Ryzen 7 8700F / 9700X. 32,22 € + 10 € spedizione da comparatore; da confermare. Ingombro RAM da verificare.",
+            "priceDate": "2026-11-20",
+            "category": "cooler",
+            "categoryName": "Dissipatore CPU",
+            "coupon": null,
+            "couponRule": null,
+            "shippingFee": 1000
+          },
+          "custom-mwofh70t-zlt8h": {
+            "shippingFee": 0,
+            "name": "Acer Predator GM7 SSD NVMe 1TB M.2 2280 PCIe Gen4 x4, Up to 7400MB/s, with HMB+SLC Technology, Internal SSD Drive for Laptop, Desktop and PS5",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/dp/B0C3ZJ8T6F/ref=sspa_dk_detail_3?pd_rd_i=B0C3ZJ8T6F&pd_rd_w=WCmPy&content-id=amzn1.sym.1eb9f79a-a1f0-4047-9d3a-2c918f58aed5&pf_rd_p=1eb9f79a-a1f0-4047-9d3a-2c918f58aed5&pf_rd_r=4KEY3CMEM8ZPWMKFRSDP&pd_rd_wg=ns3aO&pd_rd_r=5ba10c0c-54b9-4207-9fab-7fa42ca7cdcd&aref=P7v2RC0KsI&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1",
+            "verified": false,
             "manual": true,
             "coupon": null,
             "couponRule": null
           },
-          "psu-rm850x": {
-            "name": "Corsair RM850x · 850 W (2024)",
-            "spec": "ATX 3.1 · PCIe 5.1 · Cybenetics Gold · completamente modulare · CP-9020270-EU · Nuovo/usato: da verificare · prezzo indicativo",
-            "shop": "amazon-rm850x",
-            "url": "https://amzn.eu/d/02ohSgPM",
+          "custom-mwol6zgj-ahstw": {
+            "shippingFee": null,
+            "name": "MSI MAG A850GLS PCIE5 Alimentatore per PC, 850W, ATX, 80 Plus Gold ATX 3.1, compatibile PCIe 5.1, cavi goffrati, connettore nativo 12V-2x6 bicolore",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/Alimentatore-silenzioso-compatibile-goffrati-connettore/dp/B0FB43WPJC?ref=dlx_black_dg_dcl_B0BV2D4FN1_dt_sl7_40&pf_rd_r=WTY7DZFB072RQTZ33HV7&pf_rd_p=9a2ef190-968d-4cbe-b199-1c6cdf1ab540&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
             "verified": true,
             "manual": true,
             "coupon": null,
@@ -85,6 +474,34 @@
               "length": 240
             },
             "hardwareSource": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9060-xt-16g-gddr6"
+          },
+          {
+            "id": "custom-mwofh70t-zlt8h",
+            "category": "ssd",
+            "price": 15674,
+            "shippingFee": 0,
+            "name": "Acer Predator GM7 SSD NVMe 1TB M.2 2280 PCIe Gen4 x4, Up to 7400MB/s, with HMB+SLC Technology, Internal SSD Drive for Laptop, Desktop and PS5",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/dp/B0C3ZJ8T6F/ref=sspa_dk_detail_3?pd_rd_i=B0C3ZJ8T6F&pd_rd_w=WCmPy&content-id=amzn1.sym.1eb9f79a-a1f0-4047-9d3a-2c918f58aed5&pf_rd_p=1eb9f79a-a1f0-4047-9d3a-2c918f58aed5&pf_rd_r=4KEY3CMEM8ZPWMKFRSDP&pd_rd_wg=ns3aO&pd_rd_r=5ba10c0c-54b9-4207-9fab-7fa42ca7cdcd&aref=P7v2RC0KsI&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1",
+            "verified": false,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
+          },
+          {
+            "id": "custom-mwol6zgj-ahstw",
+            "category": "psu",
+            "price": 7999,
+            "shippingFee": null,
+            "name": "MSI MAG A850GLS PCIE5 Alimentatore per PC, 850W, ATX, 80 Plus Gold ATX 3.1, compatibile PCIe 5.1, cavi goffrati, connettore nativo 12V-2x6 bicolore",
+            "spec": "",
+            "shop": "custom-shop-mwo2wh2x-ng8zk",
+            "url": "https://www.amazon.it/Alimentatore-silenzioso-compatibile-goffrati-connettore/dp/B0FB43WPJC?ref=dlx_black_dg_dcl_B0BV2D4FN1_dt_sl7_40&pf_rd_r=WTY7DZFB072RQTZ33HV7&pf_rd_p=9a2ef190-968d-4cbe-b199-1c6cdf1ab540&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&th=1",
+            "verified": true,
+            "manual": true,
+            "coupon": null,
+            "couponRule": null
           }
         ],
         "customShops": {
@@ -102,7 +519,11 @@
           }
         },
         "extraCategories": [],
-        "deleted": [],
+        "deleted": [
+          "psu-rm850x",
+          "cooler-ak620",
+          "case-lancool216"
+        ],
         "productOrder": {
           "cpu": [
             "cpu-9700x",
@@ -129,7 +550,8 @@
               "verified": false,
               "manual": true,
               "coupon": null,
-              "couponRule": null
+              "couponRule": null,
+              "shippingFee": 790
             }
           ],
           "cpu-7600": [],
@@ -142,12 +564,14 @@
               "verified": true,
               "manual": true,
               "coupon": null,
-              "couponRule": null
+              "couponRule": null,
+              "shippingFee": 0
             }
           ],
           "ram-kingston16": [
             {
               "id": "offer-mwocoydg-n8md2",
+              "shippingFee": 0,
               "price": 15534,
               "shop": "custom-shop-mwo2wh2x-ng8zk",
               "url": "https://www.amazon.it/dp/B0F2YD8NYH?tag=trovaprezzi-mp-ce-prime-21&linkCode=df0&smid=A3M9V4HR0UWN9L&ascsubtag=amazonmpce_ngs",
@@ -167,19 +591,16 @@
           "ssd-1000": [],
           "psu-cm": [],
           "psu-msi": [],
-          "psu-rm850x": [],
           "psu-prime850": [],
           "case-phanteks-xt-ultra": [],
-          "case-lancool216": [],
           "cooler-phantom-se": [],
           "cooler-peerless-se": [],
-          "cooler-ak620": [],
           "cooler-amazon-user": [],
           "custom-mwo2wh2x-ng8zk": []
         },
         "selectedOffers": {
           "cpu-8700f": "base",
-          "cpu-9700x": "base",
+          "cpu-9700x": "offer-mwodzd7j-b1ebs",
           "cpu-7600": "base",
           "cpu-9600x": "offer-mwod6heo-0c18w",
           "ram-kingston16": "base",
@@ -193,23 +614,26 @@
           "ssd-1000": "base",
           "psu-cm": "base",
           "psu-msi": "base",
-          "psu-rm850x": "base",
           "psu-prime850": "base",
           "case-phanteks-xt-ultra": "base",
-          "case-lancool216": "base",
           "cooler-phantom-se": "base",
           "cooler-peerless-se": "base",
-          "cooler-ak620": "base",
           "cooler-amazon-user": "base",
           "custom-mwo2wh2x-ng8zk": "base"
         },
-        "favoriteProducts": [],
+        "favoriteProducts": [
+          "cpu-9700x",
+          "cpu-9600x",
+          "ram-kingston32"
+        ],
         "images": {
-          "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg"
+          "cpu-8700f": "https://pics.trovaprezzi.it/it-300x300/917908157.jpg",
+          "cpu-9700x": "https://cdn.idealo.com/folder/Product/204581/6/204581631/s10_produktbild_max/amd-ryzen-7-9700x-tray.jpg",
+          "cpu-9600x": "https://pics.trovaprezzi.it/it-300x300/920347181.jpg"
         },
-        "updatedAt": 1795143318175
+        "updatedAt": 1795155939099
       }
     }
   ],
-  "updatedAt": 1795143853384
+  "updatedAt": 1795155993912
 }
